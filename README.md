@@ -1,7 +1,5 @@
 # Hashtag You FE Assignment
 
-A lightweight foundation for your next webpack based frontend project.
-
 ### Installation
 
 ```sh

@@ -1,0 +1,8 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "selector-class-pattern": null,
+    "no-missing-end-of-source-newline": null,
+    "selector-list-comma-newline-after": null
+  }
+}
