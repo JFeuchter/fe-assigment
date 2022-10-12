@@ -14,7 +14,7 @@ npm run dev
 
 ### Assignment:
 
-Using a mock database, pull product results and populate the page
+Fork this repository and implement your own solution.
 
 #### Navigation
 
@@ -27,8 +27,8 @@ Open cart should open the Cart Modal
     - Product price
     - Add to Cart button
   - The product component must be styled following the structure provided in the wireframes
-  - Add to cart button should add that product with a quantity of 1
-  - Load more button should retrieve the next 6 products and add them to the container
+  - Add to Cart button should add that product with a quantity of 1
+  - Load More button should retrieve the next 6 products and add them to the container
   
 #### Cart
 
@@ -39,3 +39,9 @@ Implement a custom cart solution that showcases the current state of the cart
 
 ### Querying the mock database
   Product list can be retrieved from http://localhost:5000/products, in order to be able to provide pagination, the following params can be used: `_page` and `_limit`, for example `http://localhost:5000/products?_page=1&_limit=10`
+
+### Notes
+  - Follow the wireframes closely, but provide your own styling
+  - Comment your code as much as possible
+  - Do not use third party libraries, everything should be covered with browser standard methods
+  - Use semantic HTML
