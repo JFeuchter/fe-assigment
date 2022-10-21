@@ -1,6 +1,9 @@
 # Hashtag You FE Assignment
 
+Build the application described below, by cloning this repo and following the wireframes provided in `/wireframes`. Share a link to your repo when completed.
+
 ### Installation
+You will need to be running Node v16.7.1
 
 ```sh
 npm install
@@ -12,9 +15,15 @@ npm install
 npm run dev
 ```
 
-### Assignment:
+## Assignment
 
-Fork this repository and implement your own solution.
+Build out the navigation, products and cart features.
+
+#### Notes
+  - Follow the wireframes closely
+  - Comment your code as much as possible
+  - Do not use third party libraries, everything should be covered with browser standard methods
+  - Use semantic HTML
 
 #### Navigation
 
@@ -39,9 +48,3 @@ Implement a custom cart solution that showcases the current state of the cart
 
 ### Querying the mock database
   Product list can be retrieved from http://localhost:5000/products, in order to be able to provide pagination, the following params can be used: `_page` and `_limit`, for example `http://localhost:5000/products?_page=1&_limit=10`
-
-### Notes
-  - Follow the wireframes closely, but provide your own styling
-  - Comment your code as much as possible
-  - Do not use third party libraries, everything should be covered with browser standard methods
-  - Use semantic HTML
