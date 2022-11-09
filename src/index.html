@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hashtag You FE Assignment</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hashtag You FE Assignment</title>
+    <link href="styles/index.css" rel="stylesheet">
 </head>
 <body>
+<header>
+    <nav class="main_header_nav page-width">
+        <h1 class="logo">Product List</h1>
+        <div id="openCart" class="cart_button" data-open-modal="cart_modal">Open Cart</div>
+    </nav>
+</header>
+<section class="main_body page-width">
+    <div class="product_container">
+
+    </div>
+    <div class="buttons_wrapper">
+        <div class="load_more_button" data-page="2" onclick="if(this.getAttribute('disabled') == null) loadNextProducts(this.dataset.page);">
+            Load More
+        </div>
+    </div>
+</section>
+
+<div id="cart_modal" class="modal">
+    <div class="modal_wrapper">
+        <div class="modal_header">
+            Cart
+            <div class="close_modal" onclick="closeModal('#cart_modal');">X</div>
+        </div>
+        <div class="cart_items_wrapper">
+
+        </div>
+    </div>
+</div>
+
+<script src="scripts/index.js"></script>
 </body>
 </html>
