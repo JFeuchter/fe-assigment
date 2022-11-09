@@ -53,18 +53,18 @@ header .main_header_nav {
 }
 header .logo {
   margin-left: 20px;
+  display: flex;
+  align-items: center;
 }
 header .cart_button {
+  display: flex;
+  align-items: center;
   margin-right: 20px;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
 header .cart_button:hover {
   transform: scale(1.5);
-}
-header .logo, header .cart_button {
-  display: flex;
-  align-items: center;
 }
 
 .product_container {
